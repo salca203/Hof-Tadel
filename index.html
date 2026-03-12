@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hof Tadel</title>
+    <meta property="og:title" content="Hof Tadel" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Roboto;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: undefined;
+        text-transform: undefined;
+        letter-spacing: 0.03em;
+        line-height: 1.6;
+        color: var(--color-on-surface);
+        background: var(--color-surface);
+
+        fill: var(--color-on-surface);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="ber-hof-tadel-container1">
+        <navigation-wrapper class="navigation-wrapper">
+          <!--Navigation component-->
+          <div class="navigation-container1">
+            <nav class="navigation-wrapper">
+              <div class="navigation-container">
+                <div class="navigation-links-desktop">
+                  <a href="index.html">
+                    <div class="navigation-link">
+                      <span>Über Hof Tadel</span>
+                    </div>
+                  </a>
+                  <a href="tel:+49123456789">
+                    <div class="btn-outline btn-sm btn">
+                      <span>Anrufen</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </nav>
+            <div
+              id="navigationMenu"
+              aria-hidden="true"
+              class="navigation-mobile-overlay"
+            >
+              <div class="navigation-overlay-header">
+                <button
+                  id="navigationClose"
+                  type="button"
+                  aria-label="Menü schließen"
+                  class="navigation-mobile-close"
+                >
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M18 6L6 18M6 6l12 12"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="navigation-overlay-content">
+                <div class="navigation-mobile-links">
+                  <a href="index.html">
+                    <div class="navigation-mobile-link">
+                      <span>Über Hof Tadel</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="navigation-mobile-contact">
+                  <p class="section-subtitle">Kontakt</p>
+                  <div class="navigation-contact-info">
+                    <a href="tel:+49123456789">
+                      <div class="navigation-contact-item">
+                        <span>Tel: +49 123 456789</span>
+                      </div>
+                    </a>
+                    <a href="mailto:info@hoftadel.de?subject=">
+                      <div class="navigation-contact-item">
+                        <span>info@hoftadel.de</span>
+                      </div>
+                    </a>
+                  </div>
+                  <a href="tel:+49123456789">
+                    <div class="btn-lg btn btn-primary">
+                      <span>Jetzt anrufen</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="navigation-container2">
+              <div class="navigation-container3">
+                <style>
+                  @media (prefers-reduced-motion: reduce) {
+                  .navigation-mobile-overlay {
+                    transition: none;
+                    transform: translateX(100%);
+                    display: none;
+                  }
+                  .navigation-mobile-overlay.is-active {
+                    transform: translateX(0);
+                    display: flex;
+                  }
+                  }
+                </style>
+              </div>
+            </div>
+            <div class="navigation-container4">
+              <div class="navigation-container5">
+                <script defer="" data-name="navigation-logic">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      const navToggle = document.getElementById("navigationToggle")
+                      const navClose = document.getElementById("navigationClose")
+                      const navMenu = document.getElementById("navigationMenu")
+                      const body = document.body
+
+                      function openMenu() {
+                        navMenu.classList.add("is-active")
+                        navMenu.setAttribute("aria-hidden", "false")
+                        navToggle.setAttribute("aria-expanded", "true")
+                        body.style.overflow = "hidden"
+                      }
+
+                      function closeMenu() {
+                        navMenu.classList.remove("is-active")
+                        navMenu.setAttribute("aria-hidden", "true")
+                        navToggle.setAttribute("aria-expanded", "false")
+                        body.style.overflow = ""
+                      }
+
+                      navToggle.addEventListener("click", openMenu)
+                      navClose.addEventListener("click", closeMenu)
+
+                      const mobileLinks = navMenu.querySelectorAll(".navigation-mobile-link")
+                      mobileLinks.forEach((link) => {
+                        link.addEventListener("click", closeMenu)
+                      })
+
+                      document.addEventListener("keydown", (e) => {
+                        if (e.key === "Escape" && navMenu.classList.contains("is-active")) {
+                          closeMenu()
+                        }
+                      })
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </navigation-wrapper>
+        <section class="ber-hof-tadel-thq-intro-hero-elm intro-hero">
+          <div class="intro-hero-media">
+            <img
+              alt="Hof Tadel Panorama"
+              src="hof_foto.jpg"
+              class="intro-hero-image"
+            />
+          </div>
+          <div class="intro-hero-overlay"></div>
+          <div class="intro-hero-container">
+            <app-component-wrapper class="app-component-wrapper">
+              <!--AppComponent component-->
+              <div class="app-component-container"></div>
+            </app-component-wrapper>
+            <div class="intro-hero-content">
+              <h1 class="hero-title">Willkommen auf Hof&nbsp; Tadel&nbsp;</h1>
+              <div class="intro-hero-contact-bar">
+                <div class="intro-hero-contact-item">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>
+                  </svg>
+                  <span class="section-content">04237-1053</span>
+                </div>
+                <div class="intro-hero-contact-item">
+                  <svg
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                      <rect x="2" y="4" rx="2" width="20" height="16"></rect>
+                    </g>
+                  </svg>
+                  <span class="section-content">info@hoftadel-info.de</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          id="kontakt"
+          class="ber-hof-tadel-thq-contact-section-elm contact-section"
+        ></section>
+        <footer-wrapper class="footer-wrapper">
+          <!--Footer component-->
+          <div class="footer-container1">
+            <footer class="footer-root">
+              <div class="footer-container">
+                <div class="footer-brand">
+                  <h2 class="section-title">Kontakt &amp; Erreichbarkeit</h2>
+                </div>
+                <div class="footer-contact-grid">
+                  <div class="footer-contact-item">
+                    <div class="footer-icon-wrapper">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="footer-contact-details">
+                      <span class="footer-label">Telefon</span>
+                      <a href="tel:+49000000000">
+                        <div class="footer-link"><span>04262-1053</span></div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="footer-contact-item">
+                    <div class="footer-icon-wrapper">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            d="m22 7l-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                          ></path>
+                          <rect
+                            x="2"
+                            y="4"
+                            rx="2"
+                            width="20"
+                            height="16"
+                          ></rect>
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="footer-contact-details">
+                      <span class="footer-label">E-Mail</span>
+                      <a href="mailto:info@hoftadel.de?subject=">
+                        <div class="footer-link">
+                          <span>info@hoftadel.de</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="footer-contact-item">
+                    <div class="footer-icon-wrapper">
+                      <svg
+                        width="24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <g
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"
+                          ></path>
+                          <circle r="3" cx="12" cy="10"></circle>
+                        </g>
+                      </svg>
+                    </div>
+                    <div class="footer-contact-details">
+                      <span class="footer-label">Standort</span>
+                      <span class="footer-text">
+                        Hof Tadel, 27374 Visselhövede
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer-divider"></div>
+                <div class="footer-bottom">
+                  <p class="footer-copyright">
+                    &amp;copy; 2024 HofTadel Info. Alle Rechte vorbehalten.
+                  </p>
+                  <div
+                    class="footer-thq-footer-socials-elm footer-socials"
+                  ></div>
+                </div>
+              </div>
+            </footer>
+            <div class="footer-container2">
+              <div class="footer-container3">
+                <style>
+                  @media (prefers-reduced-motion: reduce) {
+                  .footer-icon-wrapper, .footer-social-btn, .footer-link, .footer-nav-link {
+                    transition: none;
+                  }
+                  .footer-contact-item:hover .footer-icon-wrapper {
+                    transform: none;
+                  }
+                  }
+                </style>
+              </div>
+            </div>
+            <div class="footer-container4">
+              <div class="footer-container5">
+                <script defer="" data-name="footer-interaction">
+                  document.addEventListener('DOMContentLoaded', function() {
+                    (function(){
+                      const footerLinks = document.querySelectorAll(".footer-link, .footer-nav-link, .footer-social-btn")
+
+                      footerLinks.forEach((link) => {
+                        link.addEventListener("mouseenter", () => {
+                          link.style.opacity = "0.8"
+                        })
+
+                        link.addEventListener("mouseleave", () => {
+                          link.style.opacity = "1"
+                        })
+                      })
+                    })()
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </footer-wrapper>
+        <div class="ber-hof-tadel-container2">
+          <div class="ber-hof-tadel-container3">
+            <script defer="" data-name="hoftadel-interactions">
+              document.addEventListener('DOMContentLoaded', function() {
+                (function(){
+                  // Simple scroll reveal for gallery items
+                  const observerOptions = {
+                    threshold: 0.1,
+                    rootMargin: "0px 0px -50px 0px",
+                  }
+
+                  const observer = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                      if (entry.isIntersecting) {
+                        entry.target.style.opacity = "1"
+                        entry.target.style.transform = "translateY(0)"
+                        observer.unobserve(entry.target)
+                      }
+                    })
+                  }, observerOptions)
+
+                  const galleryItems = document.querySelectorAll(".gallery-item")
+                  galleryItems.forEach((item, index) => {
+                    item.style.opacity = "0"
+                    item.style.transform = "translateY(20px)"
+                    item.style.transition = `all 0.6s ease ${index * 0.1}s`
+                    observer.observe(item)
+                  })
+
+                  // Parallax effect for hero image
+                  window.addEventListener("scroll", () => {
+                    const heroImage = document.querySelector(".intro-hero-image")
+                    if (heroImage) {
+                      const scrollPos = window.pageYOffset
+                      heroImage.style.transform = `translateY(${scrollPos * 0.3}px)`
+                    }
+                  })
+                })()
+              });
+            </script>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>
