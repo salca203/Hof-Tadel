@@ -1,0 +1,326 @@
+.navigation-wrapper {
+  display: contents;
+}
+ 
+.navigation-container1 {
+  display: contents;
+}
+ 
+.navigation-container2 {
+  display: none;
+}
+ 
+.navigation-container3 {
+  display: contents;
+}
+ 
+.navigation-container4 {
+  display: none;
+}
+ 
+.navigation-container5 {
+  display: contents;
+}
+
+.app-component-wrapper {
+  display: contents;
+}
+ 
+.app-component-container {
+  display: contents;
+}
+
+.hof-tadel-acrostic-wrapper {
+  display: contents;
+}
+ 
+.hof-tadel-acrostic-container1 {
+  display: contents;
+}
+ 
+/* Acrostic grid override - clean layout */
+.hof-tadel-acrostic-grid {
+  max-width: 860px !important;
+  width: 100% !important;
+}
+
+.hof-tadel-acrostic-item {
+  width: auto !important;
+  padding: 1.25rem 1.75rem !important;
+}
+ 
+.hof-tadel-acrostic-thq-hof-tadel-acrostic-rest-elm8 {
+  font-size: 24px;
+}
+ 
+.hof-tadel-acrostic-container2 {
+  display: none;
+}
+ 
+.hof-tadel-acrostic-container3 {
+  display: contents;
+}
+ 
+.hof-tadel-acrostic-container4 {
+  display: none;
+}
+ 
+.hof-tadel-acrostic-container5 {
+  display: contents;
+}
+ 
+
+
+.footer-wrapper {
+  display: contents;
+}
+ 
+.footer-container1 {
+  display: contents;
+}
+ 
+.footer-thq-footer-socials-elm {
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+}
+ 
+.footer-container2 {
+  display: none;
+}
+ 
+.footer-container3 {
+  display: contents;
+}
+ 
+.footer-container4 {
+  display: none;
+}
+ 
+.footer-container5 {
+  display: contents;
+}
+
+.ber-hof-tadel-container1 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.ber-hof-tadel-thq-intro-hero-elm {
+  align-items: center;
+  justify-content: center;
+}
+ 
+.ber-hof-tadel-thq-intro-hero-overlay-elm {
+  height: 1011px;
+  padding-bottom: 2px;
+}
+ 
+.ber-hof-tadel-container2 {
+  display: none;
+}
+ 
+.ber-hof-tadel-container3 {
+  display: contents;
+}
+ 
+.ber-hof-tadel-thq-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-layout-radius-radius2);
+}
+ 
+.ber-hof-tadel-thq-dropdown-toggle-elm1 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-layout-space-halfunit);
+  padding-left: var(--dl-layout-space-unit);
+  border-radius: var(--dl-layout-radius-radius2);
+  padding-right: var(--dl-layout-space-unit);
+  padding-bottom: var(--dl-layout-space-halfunit);
+}
+ 
+.ber-hof-tadel-text1 {
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+ 
+.ber-hof-tadel-thq-dropdown-arrow-elm {
+  transition: 0.3s;
+}
+ 
+.ber-hof-tadel-icon14 {
+  width: 18px;
+  height: 18px;
+  transition: 0.3s;
+}
+ 
+.ber-hof-tadel-thq-dropdown-list-elm {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-layout-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  list-style-position: inside;
+}
+ 
+.ber-hof-tadel-thq-dropdown-elm1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-layout-radius-radius2);
+}
+ 
+.ber-hof-tadel-thq-dropdown-toggle-elm2 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-layout-space-halfunit);
+  padding-left: var(--dl-layout-space-unit);
+  border-radius: var(--dl-layout-radius-radius4);
+  padding-right: var(--dl-layout-space-unit);
+  padding-bottom: var(--dl-layout-space-halfunit);
+}
+ 
+.ber-hof-tadel-thq-dropdown-toggle-elm2:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+ 
+.ber-hof-tadel-text2 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+ 
+.ber-hof-tadel-thq-dropdown-elm2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-layout-radius-radius2);
+}
+ 
+.ber-hof-tadel-thq-dropdown-toggle-elm3 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-layout-space-halfunit);
+  padding-left: var(--dl-layout-space-unit);
+  border-radius: var(--dl-layout-radius-radius4);
+  padding-right: var(--dl-layout-space-unit);
+  padding-bottom: var(--dl-layout-space-halfunit);
+}
+ 
+.ber-hof-tadel-thq-dropdown-toggle-elm3:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+ 
+.ber-hof-tadel-text3 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+ 
+.ber-hof-tadel-thq-dropdown-elm3 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-layout-radius-radius2);
+}
+ 
+.ber-hof-tadel-thq-dropdown-toggle-elm4 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-layout-space-halfunit);
+  padding-left: var(--dl-layout-space-unit);
+  border-radius: var(--dl-layout-radius-radius4);
+  padding-right: var(--dl-layout-space-unit);
+  padding-bottom: var(--dl-layout-space-halfunit);
+}
+ 
+.ber-hof-tadel-thq-dropdown-toggle-elm4:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+ 
+.ber-hof-tadel-text4 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+ 
+.ber-hof-tadel-container4 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.ber-hof-tadel-icon16 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.ber-hof-tadel-text5 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+ 
+@media(max-width: 991px) {
+  .ber-hof-tadel-thq-intro-hero-elm {
+    height: 906px;
+  }
+}
